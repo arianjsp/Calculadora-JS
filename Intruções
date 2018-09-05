@@ -1,0 +1,8 @@
+1 - Capturar os eventos que acontecem na tela
+    Declarar variáveis para cada botão da calculadora
+2 - Atribuir ações a cada um desses eventos
+    Função "painel()"
+3 - Efetuar a operação realizada
+    Função "calcular()"
+4 - Reiniciar a Calculadora para uma nova operação
+    Função "resetar()"

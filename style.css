@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+h1 {
+    font-size: 3vw;
+    padding: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.calculadora {
+    width: 234px;
+    height: 230;
+    margin: 0 auto;
+    padding: 2px;
+    background-color: #2A3E85;
+}
+
+.input {
+    margin: 8px auto;
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(158, 166, 197);
+}
+
+.teclado li {
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: rgb(158, 166, 197);
+    float: left;
+    margin: 0px -3px 5px 8px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.teclado li:hover{
+    background-color: aqua;
+    transition: 0.2s;
+}
